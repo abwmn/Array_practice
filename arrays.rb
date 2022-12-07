@@ -42,9 +42,14 @@ cool.shift
 puts "I shifted Sarah back out of my group:"
 p friends, ages, heights, cool
 
-# We can check the content of an array with index positions starting at 0:
+# We can check the content of specific elements of an array with index positions starting at 0:
 
-puts "My first friend is: ", friends[0]
-puts "My second friend's height is: ", heights[1]
-puts "My third friend's age is: ", ages[2]
+puts "My first friend is:", friends[0]
+puts "My second friend's height is:", heights[1]
+puts "My third friend's age is:", ages[2]
 puts "My fourth friend's cool status is:", cool[3]
+
+# The each method will iterate over each element of an array, allowing us to perform an operation on each one:
+
+puts "If my friends were twice as old, their ages would be:"
+ages.each {|a| print 2*a, " "}
