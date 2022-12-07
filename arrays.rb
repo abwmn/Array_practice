@@ -41,3 +41,10 @@ cool.shift
 
 puts "I shifted Sarah back out of my group:"
 p friends, ages, heights, cool
+
+# We can check the content of an array with index positions starting at 0:
+
+puts "My first friend is: ", friends[0]
+puts "My second friend's height is: ", heights[1]
+puts "My third friend's age is: ", ages[2]
+puts "My fourth friend's cool status is:", cool[3]
